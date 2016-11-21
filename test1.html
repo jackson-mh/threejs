@@ -53,9 +53,6 @@
             light = new THREE.DirectionalLight(0xFF0000,1.0,0);
             light.position.set(100, 100, 200);
             scene.add(light);
-           // light = new THREE.PointLight(0x00FF00);
-            //light.position.set(0, 0,300);
-            //scene.add(light);
         }
 
         var cube;
@@ -75,17 +72,8 @@
             initObject();
             renderer.clear();
             renderer.render(scene,camera);
-          //  animation();
-
         }
-        //function animation()
-        //{
-            //renderer.clear();
-           // camera.position.x =camera.position.x +1;
-          //  renderer.render(scene, camera);
-          //  requestAnimationFrame(animation);
-       // }
-
+        
     </script>
 </head>
 
